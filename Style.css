@@ -1,0 +1,179 @@
+﻿.circle:hover {
+    background-color: #0056b3;
+}
+
+.game-content {
+    background-image: url('Images/back.gif');
+    color: white;
+    direction: rtl;
+    font-size: large;
+}
+
+
+.game {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+.card {
+    background-color: rgba(22, 22, 22, 0.97);
+    color: white;
+    border-radius: 30px;
+}
+
+.card-header {
+    background-color: #449c47;
+    font-weight: bold;
+    border-radius: 40px;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+
+#gameBoard {
+    background-color: #607d8b;
+    border-radius: 20px;
+}
+
+
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+.info {
+    border: 2px #607d8b solid;
+    font-size: x-large;
+    direction: rtl;
+    text-align: start;
+    padding: 5px;
+}
+
+.Result {
+    background-image: url('Images/back.gif');
+}
+
+.r-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+    text-align: right;
+}
+
+
+.result-info {
+    border: 2px #607d8b solid;
+    color: #222;
+    font-size: x-large;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.result-info p {
+    margin-bottom: 17px;
+}
+
+
+.Result {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-container {
+    width: 100vh;
+}
+
+.rounded-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.rounded-image img {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
+}
+
+.center-image {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px red solid;
+}
+
+
+#name-palyer {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+#btn-replay {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#floating-timer {
+    font-size: large;
+    font-weight: bold;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    border: 1px green solid;
+    border-radius: 6px;
+    padding: 3px;
+
+}
+
+.result-elements {
+    color: green;
+    font-weight: bold;
+}
